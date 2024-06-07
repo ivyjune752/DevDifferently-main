@@ -1,0 +1,38 @@
+[
+    {
+        "folderName": "Spiderman 2025",
+        "size": "251 MB",
+        "isFavorite": true,
+        "type": "Shared Foler"
+    },
+    {
+        "folderName": "Amazon 2023",
+        "size": "21 TB",
+        "isFavorite": true,
+        "type": "Shared Foler"
+    },
+    {
+        "folderName": "KUKU",
+        "size": "12.1 MB",
+        "isFavorite": false,
+        "type": "Shared Foler"
+    },
+    {
+        "folderName": "Bulk Uploads",
+        "size": "65 GB",
+        "isFavorite": false,
+        "type": "Shared Foler"
+    },
+    {
+        "folderName": "ATV Temp Foler",
+        "size": "133 MB",
+        "isFavorite": false,
+        "type": "Shared Foler"
+    },
+    {
+        "folderName": "Raw Image",
+        "size": "12 TB",
+        "isFavorite": false,
+        "type": "Shared Foler"
+    }
+]

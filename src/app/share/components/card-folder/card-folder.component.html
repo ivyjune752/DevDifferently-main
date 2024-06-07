@@ -1,0 +1,20 @@
+<div class="folder-card">
+  <div class="content">
+    <div
+      class="{{
+        'icon icon-' + (folder.isFavorite ? 'folder-star' : 'folder')
+      }}"
+    ></div>
+    <div class="text">
+      <div class="text-header">
+        {{ folder.folderName }}
+      </div>
+      <div class="text-content">{{ folder.type }} • {{ folder.size }}</div>
+    </div>
+  </div>
+  <div class="overflow">
+    <app-context-button icon="dot">
+      <app-context-menu [menuItems]="menuItems" />
+    </app-context-button>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="header">
+  <div class="logo">
+    <img src="assets/logo.svg" />
+  </div>
+  <div class="filter">
+    <app-context-button icon="filter" label="Filters">
+      <app-context-menu [menuItems]="filterMenuItems" />
+    </app-context-button>
+  </div>
+</div>
+<div class="main-container">
+  <app-directory />
+</div>

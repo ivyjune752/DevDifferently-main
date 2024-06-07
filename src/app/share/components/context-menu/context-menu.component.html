@@ -1,0 +1,11 @@
+<div class="menu-container">
+    @for (menuItem of menuItems; track menuItem) {
+        <div class="menu-content">
+            <div class="{{'icon icon-'+menuItem.icon}}">
+            </div>
+            <div class="text">
+                {{menuItem.label}}
+            </div>
+        </div>
+    }
+</div>

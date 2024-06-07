@@ -1,0 +1,41 @@
+<div class="file-card">
+  <div
+    class="graphic-content"
+    [ngStyle]="{
+      background:
+        'linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(' +
+        file.url +
+        ')',
+      'background-size': 'cover'
+    }"
+  >
+    <div class="item-container">
+      <div>
+        <div class="duration-container">
+          {{ file.durationDisplay }}
+        </div>
+        <div class="info-container">
+          <div class="info text">{{ file.type }}</div>
+          <div
+            *ngIf="file.isFavorite"
+            class="info icon icon-favorite-fill"
+          ></div>
+        </div>
+      </div>
+      <div class="overflow">
+        <app-context-button icon="dot">
+          <app-context-menu [menuItems]="menuItems" />
+        </app-context-button>
+      </div>
+    </div>
+    <div class="loading-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+  <div class="text-content">
+    <div class="text-header">
+      {{ file.fileName }}
+    </div>
+    <div class="text-item">{{ file.author }} • {{ file.size }}</div>
+  </div>
+</div>

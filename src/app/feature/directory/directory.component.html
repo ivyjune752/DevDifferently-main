@@ -1,0 +1,18 @@
+<div class="directory">
+  <div class="sub-container">
+    <div class="header">Folders</div>
+    <div class="item-container">
+      @for (folder of folders; track folder) {
+      <app-card-folder [folder]="folder" />
+      }
+    </div>
+  </div>
+  <div class="sub-container">
+    <div class="header">Recently uploaded files</div>
+    <div class="item-container">
+      @for (file of files; track file) {
+      <app-card-file [file]="file" />
+      }
+    </div>
+  </div>
+</div>

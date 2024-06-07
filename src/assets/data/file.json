@@ -1,0 +1,119 @@
+[
+    {
+        "fileName": "Love for you",
+        "url": "assets/1.jpg",
+        "size": "200 MB",
+        "type": "MP4",
+        "isFavorite": true,
+        "author": "Harry Smith",
+        "duration": 10
+    },
+    {
+        "fileName": "Sunset Serenade",
+        "url": "assets/2.jpg",
+        "size": "180 MB",
+        "type": "MP4",
+        "isFavorite": false,
+        "author": "Emily Johnson",
+        "duration": 610
+    },
+    {
+        "fileName": "Ocean Waves",
+        "url": "assets/3.jpg",
+        "size": "250 MB",
+        "type": "MP4",
+        "isFavorite": true,
+        "author": "Alex Rodriguez",
+        "duration": 110
+    },
+    {
+        "fileName": "Mountain Adventure",
+        "url": "assets/4.jpg",
+        "size": "300 MB",
+        "type": "MP4",
+        "isFavorite": false,
+        "author": "Sophia Lee",
+        "duration": 150
+    },
+    {
+        "fileName": "Dance Rhythms",
+        "url": "assets/2.jpg",
+        "size": "220 MB",
+        "type": "MP4",
+        "isFavorite": true,
+        "author": "Carlos Martinez",
+        "duration": 230
+    },
+    {
+        "fileName": "City Lights",
+        "url": "assets/1.jpg",
+        "size": "190 MB",
+        "type": "MP4",
+        "isFavorite": false,
+        "author": "Olivia Brown",
+        "duration": 10
+    },
+    {
+        "fileName": "Dreamy Forest",
+        "url": "assets/4.jpg",
+        "size": "280 MB",
+        "type": "MP4",
+        "isFavorite": true,
+        "author": "Liam Turner",
+        "duration": 890
+    },
+    {
+        "fileName": "Starry Nights",
+        "url": "assets/3.jpg",
+        "size": "210 MB",
+        "type": "MP4",
+        "isFavorite": false,
+        "author": "Isabella White",
+        "duration": 23
+    },
+    {
+        "fileName": "Wildflower Meadow",
+        "url": "assets/2.jpg",
+        "size": "240 MB",
+        "type": "MP4",
+        "isFavorite": true,
+        "author": "Ethan Harris",
+        "duration": 200
+    },
+    {
+        "fileName": "Morning Dew",
+        "url": "assets/1.jpg",
+        "size": "230 MB",
+        "type": "MP4",
+        "isFavorite": false,
+        "author": "Ava Clark",
+        "duration": 230
+    },
+    {
+        "fileName": "Starry Nights",
+        "url": "assets/3.jpg",
+        "size": "210 MB",
+        "type": "MP4",
+        "isFavorite": false,
+        "author": "Isabella White",
+        "duration": 330
+    },
+    {
+        "fileName": "Wildflower Meadow",
+        "url": "assets/2.jpg",
+        "size": "240 MB",
+        "type": "MP4",
+        "isFavorite": true,
+        "author": "Ethan Harris",
+        "duration": 30
+    },
+    {
+        "fileName": "Morning Dew",
+        "url": "assets/1.jpg",
+        "size": "230 MB",
+        "type": "MP4",
+        "isFavorite": false,
+        "author": "Ava Clark",
+        "duration": 530
+    }
+]

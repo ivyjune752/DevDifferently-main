@@ -1,0 +1,12 @@
+<div
+  class="context-button"
+  [class.active]="isDisplayContextMenu"
+  (click)="displayContextMenu($event)"
+>
+  <div class="{{ 'icon icon-' + icon }}"></div>
+  <div *ngIf="!!label" class="text">{{ label }}</div>
+</div>
+
+<div *ngIf="isDisplayContextMenu" [ngStyle]="contextStyle">
+  <ng-content />
+</div>
